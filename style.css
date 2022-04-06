@@ -1,0 +1,157 @@
+body {
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+}
+
+
+/*NAVIGATION*/
+
+.nav-container {
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 50px;
+}
+
+ul {
+	display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  list-style-type: none;
+
+ }
+
+ul li {
+	padding: 0 15px;
+
+}
+
+a {
+	color: seashell;
+}
+
+a:hover {
+	color: black;
+	background-color: seashell;
+	border-radius: 40%;
+	padding: 0 15px;
+	text-decoration: none;
+}
+
+main {
+	padding-top: 69px;
+}
+
+/*MISION*/
+
+#mission-container {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 2 1 100%;
+	align-content: center;
+	justify-content: center;
+}
+
+.mission-background {
+	flex-shrink: 2;
+	height: 700px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-size: cover;
+	width: 1200px;
+	background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+
+}
+
+.mission {
+	flex: 2 1 1200px;
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	width: 1200px;
+	height: 100px;
+	padding: 10px;
+}
+
+#mission-container h2 {
+  margin-bottom: 0;
+}
+
+
+/*Tea of the Month*/
+
+.tea-img {
+	width: 1000px;
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.tea-img img {
+	height: 200px;
+	width: 300px;
+	padding: 15px 15px 10PX 15px;
+}
+
+#tea-month h2 {
+	margin-top: 69px;
+}
+
+/*Locations*/
+
+#locations {
+	display: inline-flex;
+	justify-content: center;
+ }
+
+.locations-background {
+	background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+	background-size: cover;
+	height: 500px;
+	width: 1200px;
+	margin-top: 69px;
+}
+
+.locations-background h2 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 50px;
+}
+
+.address {
+	display: inline-flex;
+	background-color: black;
+	width: 300px;
+	height: 300px;
+	opacity: 1;
+	flex-direction: column;
+	margin: 15px 20px;
+	flex-shrink: 3;
+}
+
+/* FOOTER */
+
+.contact {
+	height: 200px;
+}
+
+.copyright {
+	text-align: left;
+	padding-left: 20px;
+	margin-left: 0;
+}
